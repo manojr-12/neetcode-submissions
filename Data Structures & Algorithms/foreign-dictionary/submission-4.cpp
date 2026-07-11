@@ -36,7 +36,6 @@ class Solution {
                 q.push(i + 'a');
             }
         }
-        cout << indegree['t' - 'a'];
         string res;
         while (!q.empty()) {
             char curr = q.front();
